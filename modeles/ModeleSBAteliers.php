@@ -129,7 +129,7 @@ FIN_REQ_COMMENTAIRES;
 				and commenter.client = :client
 FIN_REQ_COMMENTAIRES;
 			$st = $bd->prepare( $sql ) ;
-			$st->execute( array( ':atelier' => $numeroAtelier , ':client' => $numeroclient ) ) ;
+			$st->execute( array( ':atelier' => $numeroAtelier , ':client' => $numeroClient ) ) ;
 			$commentaires = $st->fetchall( PDO::FETCH_ASSOC ) ;
 			$st->closeCursor() ;
 			return $commentaires ;

@@ -36,15 +36,6 @@
 		</div>
 		
 		<hr />
-				
-		<form action="/sbateliers/ateliers/<?= $atelier[ 'numero' ] ?>/commenter" method="POST">
-		
-			<textarea name="commentaire" rows="10" cols="40" >
-			</textarea>
-			
-			<input type="submit" value="Valider" />
-		
-		</form>
 		<h1><?php echo $_SESSION["numero"] ?></h1>
 		
 	</body>
