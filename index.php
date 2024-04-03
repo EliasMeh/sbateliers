@@ -5,7 +5,7 @@
 	if( $route == '' ){
 		require "vues/vue-accueil.php" ;
 	}
-	elseif( $route == '/sbateliers/clients/enregistrement' ){
+	elseif( $route == 'clients/enregistrement' ){
 		require "vues/vue-enregistrement.php" ;
 	}
 	elseif( $route == 'clients/enregistrer' ){
